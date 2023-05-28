@@ -52,3 +52,6 @@ router.post("/contact", (req, res) => {
   });
 });
 
+// "predeploy": "npm run build",
+//     "deploy": "gh-pages -d build",
+// "homepage": "http://joshndjohn.github.io/",
