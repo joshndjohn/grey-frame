@@ -1,3 +1,5 @@
+const dotenv = require('dotenv')
+dotenv.config();
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
@@ -50,7 +52,3 @@ router.post("/contact", (req, res) => {
   });
 });
 
-// "homepage": "http://joshndjohn.github.io/",
-
-// "predeploy": "npm run build",
-//     "deploy": "gh-pages -d build"
