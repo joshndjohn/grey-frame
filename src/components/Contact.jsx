@@ -84,10 +84,10 @@ const Contact = () => {
                             <label htmlFor="Package">Package</label>
                             <select name="Package" value={Package} className="Packages" id="packages" onChange={(e) => setPackage(e.target.value)}>
                                 <option>Select a Package</option>
-                                <option value="Teaser-$100">Teaser:$100</option>
-                                <option value="Highlight Film-$200">Highlight Film:$200</option>
-                                <option value="Feature Film-$250">Feature Film:$250</option>
-                                <option value="Highlight and Feature Film-$400">Highlight and Feature Film:$400
+                                <option value="teaser-$100">Teaser:$100</option>
+                                <option value="highlight-film-$200">Highlight Film:$200</option>
+                                <option value="feature-film-$250">Feature Film:$250</option>
+                                <option value="highlight-and-feature-film-$400">Highlight and Feature Film:$400
                                 </option>
                             </select>
                             <small>Error message</small>
