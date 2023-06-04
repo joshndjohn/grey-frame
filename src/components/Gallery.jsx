@@ -1,9 +1,6 @@
-import React from 'react'
 
 
-
-
-const Gallery = ({ videos }) => {
+const Gallery = ({ videos, control, onMouseOut, onMouseOver }) => {
   return (
     <section className="gallery" id="gallery">
         <div className="gallery-text">
@@ -12,15 +9,20 @@ const Gallery = ({ videos }) => {
         </div>
         <div className="gallery-container">
             <div className="video-column">
-                {videos.map((video) => {
+                {videos.map(({ id, video, poster }) => {
                     return(
                      <video
-                        key={video.id}
+                        key={id}
                         className="video"
                         preload="none" 
-                        autoPlay loop muted playsInline
-                        src={video.video}
-                        typeof={'video/mp4'} 
+                        controlsList="nodownload"
+                        poster={poster}
+                        loop muted playsInline 
+                        controls={control ? true : false}
+                        src={`${video}`}
+                        typeof={'video/mp4'}
+                        onMouseOver={onMouseOver}
+                        onMouseOut={onMouseOut}
                     />
                     )
                 })}
@@ -32,4 +34,15 @@ const Gallery = ({ videos }) => {
 
 export default Gallery
 
-    
+    // <Video
+    //                     key={id}
+    //                     className="video"
+    //                     preload="metadata" 
+    //                     controlsList="nodownload"
+    //                     config={config}
+    //                      controls loop muted playsInline 
+    //                     src={`${video}#t=3.0`}
+    //                     typeof={'video/mp4'}
+    //                     onMouseOver={e => e.target.play()}
+    //                     onMouseOut={e => e.target.pause()}
+    //                 />

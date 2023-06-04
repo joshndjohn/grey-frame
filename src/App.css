@@ -391,9 +391,10 @@ section {
   justify-content: center;
 }
 
-.video-column video {
+.video-column .video {
   width: 414px;
   border-radius: 10px;
+  /* pointer-events: none; */
 }
 
 /* Contact Section*/

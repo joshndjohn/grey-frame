@@ -1,21 +1,8 @@
-import './App.css'
-import Header from './components/Header'
-import Showcase from './components/Showcase'
-import Services from './components/Services'
-import About from './components/About'
-import Gallery from './components/Gallery'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
 import { useState } from 'react'
-
-//Videos
-import video1 from './Assets/videos/video1.mp4';
-import video2 from './Assets/videos/video 2.mp4';
-import video3 from './Assets/videos/video 3.mp4';
-import video4 from './Assets/videos/video4.mp4';
-import video5 from './Assets/videos/video 5.mp4';
-import video6 from './Assets/videos/video 6.mp4';
-
+import './App.css'
+import { Header, Showcase, About, Services, Gallery, Contact, Footer } from './components/index'
+import { video1, video2, video3, video4, video5, video6 } from './Assets/index'
+import { poster1, poster2, poster3, poster4, poster5, poster6 } from './Assets/index'
 
 
 const App = () => {
@@ -29,28 +16,44 @@ const [toggler, setToggler] = useState(false);
         {
             id: 1,
             video: video1,
+            poster: poster1
         },
         {
             id: 2,
             video: video2,
+            poster: poster2
         },
         {
             id: 3,
             video: video3,
+            poster: poster3
         },
         {
             id: 4,
             video: video4,
+            poster: poster4
         },
         {
             id: 5,
             video: video5,
+            poster: poster5
         },
         {
             id: 6,
             video: video6,
+            poster: poster6
         },
 ])
+
+const [control, setControl] = useState(false);
+const mouseOver = (e) => {
+    e.target.play()
+    setControl(true);
+};
+const mouseOut = (e) => {
+    e.target.pause()
+    setControl(false);
+};
 
   return (
       <>
@@ -58,7 +61,7 @@ const [toggler, setToggler] = useState(false);
          <Showcase />
          <Services />
          <About /> 
-         <Gallery videos={videos}/>
+         <Gallery videos={videos} control={control} onMouseOut={mouseOut} onMouseOver={mouseOver}/>
          <Contact />
          <Footer />     
       </> 
