@@ -394,7 +394,6 @@ section {
 .video-column .video {
   width: 414px;
   border-radius: 10px;
-  /* pointer-events: none; */
 }
 
 /* Contact Section*/
@@ -778,9 +777,10 @@ footer .logo {
   flex-wrap: wrap;
 }
 
-.video-column video {
-  width: 330px;
-  border-radius: 5px;
+.video-column .video {
+  width: 350px;
+  border-radius: none;
+  margin: 0 20px;
 }
 
 .contact-text {
