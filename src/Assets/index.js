@@ -1,11 +1,11 @@
 
 //Videos 
 export { default as video1 } from './videos/video1.mp4';
-export { default as video2 } from './videos/video 2.mp4';
-export { default as video3 } from './videos/video 3.mp4';
+export { default as video2 } from './videos/video2.mp4';
+export { default as video3 } from './videos/video3.mp4';
 export { default as video4 } from './videos/video4.mp4';
-export { default as video5 } from './videos/video 5.mp4';
-export { default as video6 } from './videos/video 6.mp4';
+export { default as video5 } from './videos/video5.mp4';
+export { default as video6 } from './videos/video6.mp4';
 
 //Video Posters
 export { default as poster1 } from './video-posters/poster1.JPG';
