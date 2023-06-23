@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 import { useState } from 'react'
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const Contact = () => {
@@ -140,7 +140,7 @@ const Contact = () => {
                 </i>
                 <div className="write-up">
                     <h5>Contact No:</h5>
-                    <p>+1 (502) 234-1220</p>
+                    <p>+1 (516) 500-3759</p>
                 </div>
             </div>
             <div className="call">

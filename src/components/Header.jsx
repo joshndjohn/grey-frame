@@ -1,5 +1,3 @@
-import menuLogo from "../Assets/menu.png";
-import closeLogo from "../Assets/close.png"
 import { Icon } from '@iconify/react';
 
 const Header = ({ onToggle, toggler }) => {
