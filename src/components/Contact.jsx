@@ -131,16 +131,7 @@ const Contact = () => {
                 </i>
                 <div className="write-up">
                     <h5>Email Us:</h5>
-                    <p>greyframestudios@gmail.com</p>
-                </div>
-            </div>
-            <div className="call">
-                <i className="fa-sharp fa-solid fa-phone icon">
-                      <Icon icon="ant-design:phone-twotone" />
-                </i>
-                <div className="write-up">
-                    <h5>Contact No:</h5>
-                    <p>+1 (516) 500-3759</p>
+                    <p>info@greyframestudios.com</p>
                 </div>
             </div>
             <div className="call">
