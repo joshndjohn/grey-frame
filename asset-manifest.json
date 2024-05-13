@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a5b13d2.css",
-    "main.js": "/static/js/main.396b3ccf.js",
+    "main.js": "/static/js/main.3de81bd5.js",
     "static/media/video4.mp4": "/static/media/video4.fd5e9cf005be3e62a2b0.mp4",
     "static/media/video2.mp4": "/static/media/video2.02955de5143174a6ee6e.mp4",
     "static/media/video3.mp4": "/static/media/video3.614a6738f18268e129f0.mp4",
@@ -10,18 +10,18 @@
     "static/media/video1.mp4": "/static/media/video1.b65239f816e88d4aca75.mp4",
     "static/media/Rectangle 5.png": "/static/media/Rectangle 5.ced8b409479f3d83ab80.png",
     "static/media/Rectangle 2.png": "/static/media/Rectangle 2.0ebb02914540e9ea8143.png",
-    "static/media/poster4.JPG": "/static/media/poster4.26eee8c1bdae617c1582.JPG",
-    "static/media/poster6.JPG": "/static/media/poster6.71152acc19dd8812f90a.JPG",
-    "static/media/poster5.JPG": "/static/media/poster5.832c8584cfaa26df7e4e.JPG",
-    "static/media/poster1.JPG": "/static/media/poster1.a869f7d295fa97bd1715.JPG",
-    "static/media/poster2.JPG": "/static/media/poster2.c4fe16432a66b96e7277.JPG",
-    "static/media/poster3.JPG": "/static/media/poster3.e63e8d98c295bf989300.JPG",
+    "static/media/poster4.jpg": "/static/media/poster4.26eee8c1bdae617c1582.jpg",
+    "static/media/poster6.jpg": "/static/media/poster6.71152acc19dd8812f90a.jpg",
+    "static/media/poster5.jpg": "/static/media/poster5.832c8584cfaa26df7e4e.jpg",
+    "static/media/poster1.jpg": "/static/media/poster1.a869f7d295fa97bd1715.jpg",
+    "static/media/poster2.jpg": "/static/media/poster2.c4fe16432a66b96e7277.jpg",
+    "static/media/poster3.jpg": "/static/media/poster3.e63e8d98c295bf989300.jpg",
     "index.html": "/index.html",
     "main.3a5b13d2.css.map": "/static/css/main.3a5b13d2.css.map",
-    "main.396b3ccf.js.map": "/static/js/main.396b3ccf.js.map"
+    "main.3de81bd5.js.map": "/static/js/main.3de81bd5.js.map"
   },
   "entrypoints": [
     "static/css/main.3a5b13d2.css",
-    "static/js/main.396b3ccf.js"
+    "static/js/main.3de81bd5.js"
   ]
 }
