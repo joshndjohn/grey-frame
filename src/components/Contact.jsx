@@ -60,7 +60,7 @@ const Contact = () => {
         <h2>contact us</h2>
         <h5>book now</h5>
     </div>
-    <div className="overlay2"></div>
+    {/* <div className="overlay2"></div> */}
     <div className="form-container">
         <form action="" name="form" className="form" id="form"  onSubmit={handleSubmit} method="post">
             <div className="form-controls">

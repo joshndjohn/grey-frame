@@ -19,7 +19,7 @@ const Gallery = ({ videos, control, onMouseOut, onMouseOver }) => {
                         poster={poster}
                         loop muted playsInline 
                         controls={control && true}
-                        src={`${video}`}
+                        src={video}
                         typeof={'video/mp4'}
                         onMouseEnter={onMouseOver}
                         onMouseLeave={onMouseOut}
