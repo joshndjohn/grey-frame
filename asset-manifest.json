@@ -1,27 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a5b13d2.css",
-    "main.js": "/static/js/main.2aef85f5.js",
-    "static/media/video1.mp4": "/static/media/video1.8b927e6e0640252d2371.mp4",
-    "static/media/video4.mp4": "/static/media/video4.617bcecaa6ce437f8897.mp4",
-    "static/media/video5.mp4": "/static/media/video5.cd5d34260b96dea3ce19.mp4",
-    "static/media/video2.mp4": "/static/media/video2.a631a99070282cb187da.mp4",
-    "static/media/video6.mp4": "/static/media/video6.b12a029c76f7c33ec92d.mp4",
-    "static/media/video3.mp4": "/static/media/video3.fc2706bca692767f713e.mp4",
-    "static/media/poster3.png": "/static/media/poster3.64b822281eb4df0a9d9f.png",
-    "static/media/poster4.png": "/static/media/poster4.a0f12af5c8e8cf884adf.png",
-    "static/media/poster5.png": "/static/media/poster5.30e66a501489b936fe45.png",
-    "static/media/poster1.png": "/static/media/poster1.172bfd5fe270b4820301.png",
-    "static/media/Rectangle 5.png": "/static/media/Rectangle 5.ced8b409479f3d83ab80.png",
-    "static/media/poster2.JPG": "/static/media/poster2.fa3509f382d8d1b4651e.JPG",
-    "static/media/Rectangle 2.png": "/static/media/Rectangle 2.0ebb02914540e9ea8143.png",
-    "static/media/poster6.jpg": "/static/media/poster6.71152acc19dd8812f90a.jpg",
+    "main.js": "/static/js/main.e9a5a430.js",
+    "static/media/heroImage.png": "/static/media/heroImage.00ae3f1bb1701f5d7c25.png",
+    "static/media/aboutImage.png": "/static/media/aboutImage.ced8b409479f3d83ab80.png",
+    "static/media/heroImageMobile.png": "/static/media/heroImageMobile.027c47fd1c01f3162867.png",
     "index.html": "/index.html",
-    "main.3a5b13d2.css.map": "/static/css/main.3a5b13d2.css.map",
-    "main.2aef85f5.js.map": "/static/js/main.2aef85f5.js.map"
+    "main.e9a5a430.js.map": "/static/js/main.e9a5a430.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5b13d2.css",
-    "static/js/main.2aef85f5.js"
+    "static/js/main.e9a5a430.js"
   ]
 }
