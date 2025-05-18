@@ -30,5 +30,4 @@ export const ServiceBoxStyle = styled.span`
 
 export const StyledIcon = styled(Icon)`
   font-size: 4.3rem;
-  /* margin-bottom: 20px; */
 `

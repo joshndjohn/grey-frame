@@ -10,7 +10,7 @@ const About = () => {
                 <h3>who we are</h3>
             </Title>
             <article>
-                <h3>We are a team of professional editors with over 10 years experience in editing cinematic elopement, destination, catholic weddings etc. We
+                <h3>We are a team of professional editors with over six years experience in editing cinematic elopement, destination, catholic weddings etc. We
                 just don’t cut and join, we tell stories using detailed editing to capture every moments of your
                 wedding.<br/> You are assured of memorable visuals and seamless sound design.
                 </h3>
@@ -19,7 +19,7 @@ const About = () => {
                     <Box>
                         <Div>
                         <span></span>
-                        6-12 days for delivery
+                        6-12 work days for delivery
                         </Div>
                         <Div>
                         <span></span>

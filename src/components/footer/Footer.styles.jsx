@@ -7,12 +7,7 @@ height: auto;
 display: flex;
 flex-direction: column;
 width: 100%;
-/* justify-content: center; */
 align-items: center;
-
-@media (max-width: 475px) {
-            /* height: 15vh; */
-        }
 
 span {
     background-color: #c5bfbf3b;

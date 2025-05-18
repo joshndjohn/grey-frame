@@ -4,10 +4,10 @@ import styled from "styled-components";
 export const VideoContainer = styled.div`
   position: relative;
   width: 100%;
-  max-width: 600px;       /* same maximum width you had */
+  max-width: 600px;      
   margin: 0 auto;
   overflow: hidden;
-  border-radius: 10px;     /* clip both poster & iframe */
+  border-radius: 10px;     
 `;
 
 export const PosterWrapper = styled.div`
@@ -15,9 +15,8 @@ export const PosterWrapper = styled.div`
   width: 100%;
   cursor: pointer;
   overflow: hidden;
-  border-radius: 10px;     /* match the container */
+  border-radius: 10px;     
 
-  /* Exact same responsive sizes you used on VideoStyle */
   height: 230px;
   width: 408px;
   object-fit: cover;
@@ -84,7 +83,6 @@ export const IframeWrapper = styled.div`
   overflow: hidden;
   border-radius: 10px;
 
-  /* Same responsive sizing as poster */
   height: 230px;
   width: 408px;
 
@@ -111,7 +109,7 @@ export const IframeWrapper = styled.div`
 `;
 
 export const VideoIframe = styled.iframe.attrs({
-  onContextMenu: e => e.preventDefault(),  // block right-click
+  onContextMenu: e => e.preventDefault(),
 })`
   position: absolute;
   top: 0; left: 0;

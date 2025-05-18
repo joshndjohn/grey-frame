@@ -9,11 +9,6 @@ export const AboutStyle = styled.section`
     background-position: center;
     background-repeat: no-repeat;
 
-    @media (max-width: 475px) {
-            /* height: auto;
-            padding-bottom: 10%; */
-        }
-
     article {
         display: flex;
         flex-direction: column;
@@ -39,23 +34,12 @@ export const BoxContainer = styled.div`
    justify-content: space-between;
    flex-wrap: wrap;
    gap: 40px;
-
-   @media (max-width: 475px) {
-            /* flex-direction: column;
-            justify-content: start;
-            gap: 20px; */
-        }
 `;
 
 export const Box = styled.div`
     display: flex;
     flex-direction: column;
     gap: 40px;
-
-    /* @media (max-width: 475px) {
-            gap: 20px;
-        } */
-
 `;
 
 export const Div = styled.div`

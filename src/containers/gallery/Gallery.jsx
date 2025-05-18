@@ -46,14 +46,6 @@ const Gallery = () => {
                         ))}
                     </Videos>
                 </VideoBox>
-                {/* <VideoBox>
-                    <p>multicam (ceremony, speech & dance)</p>
-                    <Videos>
-                        <Video/>
-                        <Video/>
-                        <Video/>
-                    </Videos>
-                </VideoBox> */}
             </VideoBoxes>
         </Wrap>
     </GalleryStyle>

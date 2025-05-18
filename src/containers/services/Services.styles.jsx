@@ -1,9 +1,5 @@
 import styled from "styled-components";
 export const ServicesStyle = styled.section`
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
     text-align: center;
     height: auto;
     padding-bottom: 10%;
@@ -35,21 +31,10 @@ export const ServicesStyle = styled.section`
     }
 
     article {
-        /* display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-        gap: 20px;
-        justify-content: center;
-        align-items: center; */
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
-
-        
-    
-/* @media (max-width: 1366px) {
-    flex-wrap: wrap;
-} */
 
 @media ((min-width: 1025px) and (max-width: 1280px)) {
         display: grid;                                  
@@ -73,8 +58,6 @@ export const ServicesStyle = styled.section`
     }
 
     @media (max-width: 475px) {
-        /* flex-direction: column; */
-        /* gap: 30px; */
         flex-wrap: wrap;
     }
     }

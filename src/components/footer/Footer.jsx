@@ -1,6 +1,5 @@
 import { FooterStyle, FooterContent } from './Footer.styles';
 import Logo from '../logo/Logo';
-// import { Wrap } from '../../Wrapper.styles';
 
 const Footer = () => {
   return (

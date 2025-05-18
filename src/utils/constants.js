@@ -9,22 +9,22 @@ export const serviceBoxData = [
     {
         icon: "fluent:movies-and-tv-20-regular",
         title: "Trailer",
-        desc: "1 minute sneak peak Featuring the most important and interesting moments of your wedding"
+        desc: "1 minute sneak peak\n Featuring the most important and interestingn moments of your\n wedding"
     },
     {
         icon: "ant-design:video-camera-outlined",
         title: "Highlight Film",
-        desc: "3-7mins Featuring memorable moments from prep, vow, kiss the bride and reception, laced with important speech from the officiant and other notable people from your event."
+        desc: "3-7mins\n Featuring memorable moments\n from prep, vow, kiss the bride and\n reception, laced with important\n speech from the officiant and other\n notable people from your event."
     },
     {
         icon: "clarity:film-strip-line",
         title: "Feature Film",
-        desc: "10-15mins A longer version of the Highlight."
+        desc: "10-30mins\n A longer version of the Highlight."
     },
     {
         icon: "ph:film-reel",
         title: "Documentary Film",
-        desc: "45-90mins Everything that happened on your special day."
+        desc: "45-90mins\n Everything that happened on your\n special day."
     }
 ]
 
@@ -90,7 +90,7 @@ export const documentaries = [
     },
     {
         title: "Documentary Film 2",
-        src: "https://www.youtube.com/embed/tExVejYZCv8",
+        src: "https://www.youtube.com/embed/5ZRqWr4jx6o",
     },
     {
         title: "Documentary Film 3",

@@ -9,5 +9,4 @@ export const Button = styled.a`
     justify-content: center;
     align-items: center;
     border-width: 1px;
-    /* position: absolute; */
 `

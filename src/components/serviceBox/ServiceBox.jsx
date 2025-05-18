@@ -6,7 +6,7 @@ export const ServiceBox = ({ icon, title, desc }) => {
     <ServiceBoxStyle>
         <StyledIcon icon={icon}/>
         <h4>{title}</h4>
-        <p>{desc}</p>
+        <p style={{ whiteSpace: 'pre-line' }}>{desc}</p>
     </ServiceBoxStyle>
   )
 }

@@ -37,8 +37,6 @@ const Contact = () => {
   // Error state for validations
   const [errors, setErrors] = useState({
     email: "",
-    // projectLink: "",
-
   });
   
   // Handle changes and validate important fields
@@ -56,18 +54,6 @@ const Contact = () => {
         setErrors((prev) => ({ ...prev, email: "" }));
       }
     }
-    
-    // Validate projectLink
-    // if(name === "projectLink") { 
-    //    const cloudLinkRe = /^(?:(?:https?:\/\/(?:www\.)?dropbox\.com\/(?:s\/[A-Za-z0-9]+(?:\/[^?\/\s]+)?|scl\/[A-Za-z0-9]+(?:\/[^?\/\s]+)?|sh\/[A-Za-z0-9]+\/[A-Za-z0-9]+)(?:\?[^#\s]*)?)|https?:\/\/drive\.google\.com\/drive\/folders\/[A-Za-z0-9_-]+(?:\?[^#\s]*)?|https?:\/\/drive\.google\.com\/file\/d\/[A-Za-z0-9_-]+\/view(?:\?[^#\s]*)?|https?:\/\/docs\.google\.com\/[a-z]+\/d\/[A-Za-z0-9_-]+(?:\/[^\s?#]*)?(?:\?[^#\s]*)?)$/;
-
-
-    //       if (!cloudLinkRe.test(value)) {
-    //           setErrors((prev) => ({ ...prev, projectLink: "Invalid link" }));
-    //       } else {
-    //           setErrors((prev) => ({ ...prev, projectLink: "" }));
-    //       }
-    //   }
   };
   
   // Handle form submission
@@ -168,7 +154,7 @@ const Contact = () => {
                                     <option value="highlight-film-$200">Highlight Film ($200)</option>
                                     <option value="feature-film-$250">Feature Film ($250)</option>
                                     <option value="documentary-film-$250">Documentary Film ($250)</option>
-                                    <option value="multicam-ceremony-speech-$400">Multicam (Ceremony and Speech): $400</option>
+                                    <option value="multicam-ceremony-speech-$400">Multicam (Ceremony and Speech): $100 each</option>
                                 </select>
                             </div>
                             <div>
@@ -224,7 +210,6 @@ const Contact = () => {
                                 required
                                 ></textarea>
                             </div>
-                            {/* <button type="submit">Submit</button> */}
                             <SubmitButton type="submit" $loading={loading}>
                               {loading ? <Spinner /> : 'Submit'}
                             </SubmitButton>
