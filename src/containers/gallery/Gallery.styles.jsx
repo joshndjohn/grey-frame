@@ -28,11 +28,11 @@ p {
 export const Videos = styled.div`
 display: flex;
 gap: 25px;
-/* flex-wrap: wrap; */
+
 justify-content: center;
 
 @media (max-width: 768px) {
-            flex-wrap: wrap;
+            gap: 10px;
         }
 
 @media (max-width: 640px) {

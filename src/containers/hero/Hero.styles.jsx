@@ -3,7 +3,7 @@ import { heroImage, btnBorder } from "../../utils/constants";
 
 
 export const HeroStyle = styled.header`
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${heroImage});
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage});
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ export const HeroStyle = styled.header`
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 135vh;
+    height: 105vh;
 
     @media (max-width: 1024px) {
         height: 80vh;

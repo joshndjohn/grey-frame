@@ -68,7 +68,7 @@ const Contact = () => {
       return;
     }
 
-    const endpoint = 'https://6829219009a0ded7267b98de--lucky-syrniki-ebadcb.netlify.app/.netlify/functions/proxy';
+    const endpoint = "https://682b1c016a0884192b4ca494--lucky-syrniki-ebadcb.netlify.app/.netlify/functions/proxy";
 
     setLoading(true);
 
@@ -154,7 +154,7 @@ const Contact = () => {
                                     <option value="highlight-film-$200">Highlight Film ($200)</option>
                                     <option value="feature-film-$250">Feature Film ($250)</option>
                                     <option value="documentary-film-$250">Documentary Film ($250)</option>
-                                    <option value="multicam-ceremony-speech-$400">Multicam (Ceremony and Speech): $100 each</option>
+                                    <option value="multicam-ceremony-speech-$400">Multicam (Ceremony and Speech): $100 Each</option>
                                 </select>
                             </div>
                             <div>

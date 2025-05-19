@@ -29,17 +29,18 @@ export const MenuBar = styled(Icon)`
 `;
 
 export const Nav = styled.nav`
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
+    /* contain: layout paint; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 25px 5%;
-    height: 13.5vh;
+    padding: 10px 5%;
+    height: 13vh;
     background-color: var(--myBlack);
 
      ul {
