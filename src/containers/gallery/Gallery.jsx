@@ -1,7 +1,7 @@
 import { GalleryStyle, VideoBoxes, VideoBox, Videos } from "./Gallery.styles";
 import { Wrap, Title } from "../../Wrapper.styles";
 import Video from "../../components/video/Video";
-import { trailers, highlightFilms, featureFilms, documentaries, controlValuesString } from "../../utils/constants";
+import { controlValuesString, videoData } from "../../utils/constants";
 
 const Gallery = () => {
   return (
@@ -17,7 +17,7 @@ const Gallery = () => {
                 <VideoBox>
                     <p>1Min trailer</p>
                     <Videos>
-                        {trailers.map(trailer => (
+                        {videoData.trailers.map(trailer => (
                             <Video key={trailer.title} iframeBaseUrl={trailer.src + controlValuesString}/>
                         ))}
                     </Videos>
@@ -25,7 +25,7 @@ const Gallery = () => {
                 <VideoBox>
                     <p>highlight film</p>
                     <Videos>
-                        {highlightFilms.map(highlight => (
+                        {videoData.highlightFilms.map(highlight => (
                             <Video key={highlight.title} iframeBaseUrl={highlight.src + controlValuesString}/>
                         ))}
                     </Videos>
@@ -33,7 +33,7 @@ const Gallery = () => {
                 <VideoBox>
                     <p>feature film</p>
                     <Videos>
-                        {featureFilms.map(feature => (
+                        {videoData.featureFilms.map(feature => (
                             <Video key={feature.title} iframeBaseUrl={feature.src + controlValuesString}/>
                         ))}
                     </Videos>
@@ -41,7 +41,7 @@ const Gallery = () => {
                 <VideoBox>
                     <p>documentary film</p>
                     <Videos>
-                        {documentaries.map(documentary => (
+                        {videoData.documentaries.map(documentary => (
                             <Video key={documentary.title} iframeBaseUrl={documentary.src + controlValuesString}/>
                         ))}
                     </Videos>

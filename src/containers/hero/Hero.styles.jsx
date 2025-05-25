@@ -22,11 +22,13 @@ export const HeroStyle = styled.header`
         }
 
         @media (max-width: 640px) {
-            height: 80vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1669789746310-700f9411fd71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGJlYXV0aWZ1bCUyMHdlZGRpbmclMjBwaWN0dXJlfGVufDB8fDB8fHww');
+            height: 100vh;
         }
 
     @media (max-width: 475px) {
-        height: 80vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1669789746310-700f9411fd71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGJlYXV0aWZ1bCUyMHdlZGRpbmclMjBwaWN0dXJlfGVufDB8fDB8fHww');
+        height: 100vh;
     }
 
     div {
