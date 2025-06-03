@@ -15,14 +15,6 @@ const Gallery = () => {
             {/* Videos */}
             <VideoBoxes>
                 <VideoBox>
-                    <p>1Min trailer</p>
-                    <Videos>
-                        {videoData.trailers.map(trailer => (
-                            <Video key={trailer.title} iframeBaseUrl={trailer.src + controlValuesString}/>
-                        ))}
-                    </Videos>
-                </VideoBox>
-                <VideoBox>
                     <p>highlight film</p>
                     <Videos>
                         {videoData.highlightFilms.map(highlight => (

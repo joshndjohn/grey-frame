@@ -42,20 +42,6 @@ export const contactData = [
 
 
 export const videoData = {
-        trailers: [
-        {
-            title: "Trailer 1",
-            src: "https://www.youtube.com/embed/8IaXaXxc7cM",
-        },
-        {
-            title: "Trailer 2",
-            src: "https://www.youtube.com/embed/ctJshiUawIs",
-        },
-        {
-            title: "Trailer 3",
-            src: "https://www.youtube.com/embed/sB3c1bsqrhg",
-        },
-    ],
         highlightFilms: [
         {
             title: "Highlight Film 1",
